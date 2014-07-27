@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Various useful Objective-C code."
   s.homepage     = "https://github.com/cabosoft/STUtils"
-  s.author       = 'Satoshi Konno'
+  s.author       = 'Buzz Andersen'
   s.source       = { :git => "https://github.com/cabosoft/STUtils.git", :branch => 'master' }
   s.requires_arc = true
 
