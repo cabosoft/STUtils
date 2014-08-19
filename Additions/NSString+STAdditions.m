@@ -27,6 +27,7 @@
 //
 
 #import "NSString+STAdditions.h"
+#include <CommonCrypto/CommonDigest.h>
 
 
 @implementation NSString (STAdditions)

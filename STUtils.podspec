@@ -14,12 +14,13 @@ Pod::Spec.new do |s|
     ss.dependency 'STUtils/Additions'
     ss.dependency 'STUtils/Misc'
     ss.dependency 'STUtils/Security'
-    ss.dependency 'STUtils/iOS'
+    # ss.dependency 'STUtils/iOS'
   end
 
   s.subspec 'Additions' do |ss|
     ss.ios.deployment_target = '7.0'
     ss.source_files = 'Additions/*.{h,m}'
+    ss.dependency 'STUtils/Misc'
   	ss.resources = 'Resources/*'
   end
 
@@ -33,9 +34,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'Security/*.{h,m}'
   end
 
-  s.subspec 'iOS' do |ss|
-    ss.ios.deployment_target = '7.0'
-    ss.source_files = "iOS/Additions/*.{h,m,mm}", "iOS/UIKit/*.{h,m,mm}"
-  end
+  # s.subspec 'iOS' do |ss|
+  #   ss.ios.deployment_target = '7.0'
+  #   ss.source_files = "iOS/Additions/*.{h,m,mm}", "iOS/UIKit/*.{h,m,mm}"
+  # end
 
 end

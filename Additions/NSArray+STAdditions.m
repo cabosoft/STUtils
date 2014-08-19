@@ -27,6 +27,7 @@
 //
 
 #import "NSArray+STAdditions.h"
+#import "STRandomization.h"
 
 
 @implementation NSArray (STAdditions)
