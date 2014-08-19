@@ -5,7 +5,7 @@
 //  Copyright 2011 System of Touch. All rights reserved.
 //
 
-#import "STUtils.h"
+#import "NSURL+STAdditions.h"
 
 
 @implementation NSURL (STAdditions)

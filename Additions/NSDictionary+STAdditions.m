@@ -5,7 +5,7 @@
 //  Copyright 2012 System of Touch. All rights reserved.
 //
 
-#import "STUtils.h"
+#import "NSDictionary+STAdditions.h"
 
 
 @implementation NSDictionary (STAdditions)

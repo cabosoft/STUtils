@@ -26,7 +26,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "STUtils.h"
+#import "CLLocation+STAdditions.h"
 
 
 @implementation CLLocation (STAdditions)

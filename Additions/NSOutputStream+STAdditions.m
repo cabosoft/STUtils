@@ -5,7 +5,7 @@
 //  Copyright (c) 2012 System of Touch. All rights reserved.
 //
 
-#import "STUtils.h"
+#import "NSOutputStream+STAdditions.h"
 
 
 @implementation NSOutputStream (STAdditions)

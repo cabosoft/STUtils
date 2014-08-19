@@ -5,7 +5,7 @@
 //  Copyright 2011 System of Touch. All rights reserved.
 //
 
-#import "STUtils.h"
+#import "NSData+STAdditions.h"
 
 
 @implementation NSData (STAdditions)

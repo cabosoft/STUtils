@@ -5,7 +5,7 @@
 //  Copyright 2011 System of Touch. All rights reserved.
 //
 
-#import "STUtils.h"
+#import "NSMutableString+STAdditions.h"
 
 
 @implementation NSMutableString (STAdditions)
