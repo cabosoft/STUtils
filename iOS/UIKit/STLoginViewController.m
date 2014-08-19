@@ -27,6 +27,11 @@
 //
 
 #import "STLoginViewController.h"
+#import "STEditableTableViewCell.h"
+
+#define STDefaultNavBarHeight 44.0f
+#define STLocalizedString(key) NSLocalizedString(key, nil)
+
 
 
 // Constants

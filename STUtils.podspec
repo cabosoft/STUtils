@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.subspec 'Additions' do |ss|
     ss.ios.deployment_target = '7.0'
     ss.source_files = 'Additions/*.{h,m}'
-  	ss.resources = 'Resources/*', 
+  	ss.resources = 'Resources/*'
   end
 
   s.subspec 'Misc' do |ss|

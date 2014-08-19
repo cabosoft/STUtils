@@ -26,7 +26,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "SArray+STAdditions.h"
+#import "NSArray+STAdditions.h"
 
 
 @implementation NSArray (STAdditions)
