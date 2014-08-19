@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "STUtils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Various useful Objective-C code."
   s.homepage     = "https://github.com/cabosoft/STUtils"
   s.author       = 'Buzz Andersen'
-  s.source       = { :git => "https://github.com/cabosoft/STUtils.git", :branch => 'master' }
+  s.source       = { :git => "https://github.com/cabosoft/STUtils.git", :tag => 'podspect-0.0.2' }
   s.requires_arc = false
 
   s.subspec 'Additions' do |ss|
