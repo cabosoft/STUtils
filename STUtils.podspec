@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author       = 'Buzz Andersen'
   s.source       = { :git => "https://github.com/cabosoft/STUtils.git", :tag => 'podspec-0.0.2' }
   s.requires_arc = false
+  s.ios.deployment_target = '7.0'
 
   s.subspec 'Additions' do |ss|
     ss.ios.deployment_target = '7.0'
